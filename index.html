@@ -1,0 +1,74 @@
+<!-- 
+========================================================================
+CHILLZ TIME — PREMIUM MUSIC EXPERIENCE
+========================================================================
+
+Welcome to Chillz Time! A chill, immersive music player.
+Built with:
+- HTML / Tailwind CSS
+- TypeScript (Object-Oriented Architecture)
+- GSAP 3 + ScrollTrigger (Buttery smooth animations)
+- Vite (Fast bundling and building)
+
+--- DOM ARCHITECTURE OVERVIEW ---
+
+This file is the SPA "shell". JavaScript dynamically swaps content
+inside the <main> tag instead of loading multiple HTML files.
+
+Key Layout Areas:
+1. #sidebar-container: Left nav menu (persistent).
+2. #main-content: Central area swapped by Router.
+3. #player-bar-container: Bottom player bar (persistent).
+4. #overlay-container: Full-screen popups (Now Playing, modals).
+
+To get started with the TypeScript code, open `src/main.ts`!
+========================================================================
+-->
+
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chillz Time — Premium Music Experience</title>
+  <meta name="description"
+    content="Chillz Time — A chill, immersive music player with premium dark-mode aesthetics and buttery smooth animations." />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Spline+Sans:wght@300;400;500;600;700&family=Sora:wght@300;400;600&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body class="bg-background-dark font-display text-white h-screen w-screen overflow-hidden grainy-bg ambient-gradient">
+
+  <div id="app" class="flex flex-col h-full w-full relative z-10">
+
+    <!-- Top section: Sidebar + Main -->
+    <div class="flex flex-1 min-h-0">
+
+      <!-- Sidebar -->
+      <aside id="sidebar-container"
+        class="w-[260px] min-w-[260px] flex-shrink-0 border-r border-white/5 bg-surface md:flex flex-col hidden">
+      </aside>
+
+      <!-- Main Content -->
+      <main id="main-content" class="flex-1 overflow-y-auto bg-background-dark"></main>
+
+    </div>
+
+    <!-- Bottom Player Bar -->
+    <footer id="player-bar-container"
+      class="h-22 flex-shrink-0 border-t border-white/5 bg-surface backdrop-blur-xl z-40">
+    </footer>
+
+  </div>
+
+  <!-- Modals and Overlays -->
+  <div id="overlay-container" class="z-50"></div>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>

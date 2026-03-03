@@ -1,0 +1,53 @@
+# ═══════════════════════════════════════════════════════════════
+# CHILLZ TIME — Git Ignore Rules
+# ═══════════════════════════════════════════════════════════════
+
+# ─── Dependencies ──────────────────────────────────────────────
+node_modules/
+
+# ─── Environment Variables ─────────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ─── Build Output ──────────────────────────────────────────────
+dist/
+build/
+out/
+
+# ─── Logs ──────────────────────────────────────────────────────
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ─── Editor & IDE ──────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ─── OS Generated Files ───────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ─── TypeScript Cache ─────────────────────────────────────────
+*.tsbuildinfo
+
+# ─── Misc ──────────────────────────────────────────────────────
+*.local
+
+# ═══════════════════════════════════════════════════════════════
+# ⚠️  DO NOT IGNORE THESE — they are part of the project:
+#     src/assets/songs/    (audio files)
+#     src/assets/images/   (cover art, banners, profiles)
+# ═══════════════════════════════════════════════════════════════
