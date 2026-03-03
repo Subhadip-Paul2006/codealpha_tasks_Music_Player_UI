@@ -1,6 +1,6 @@
-🎵 Chillz Time – Modern Music Player UI
-
-🚀 <b>Project Aim</b>
+<h2>🎵 Chillz Time – Modern Music Player UI</h2>h2>
+----------------------------------------------------
+🚀 <b>Project Aim</b><br>
 Chillz Time is a frontend-based music player designed to provide a smooth, immersive, and organized listening experience.
 The goal of this project is to:
 Create a clean and responsive music player interface
