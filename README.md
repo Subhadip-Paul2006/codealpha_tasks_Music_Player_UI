@@ -9,6 +9,22 @@ Practice modern frontend development principles
 Improve UI/UX design and user interaction experience
 This project focuses purely on frontend development and visual experience.
 
+<br><h3>📂 Project Structure</h3><br>
+Chillz-Time/
+│
+├── public/
+│   ├── Songs/
+│   ├── Images/
+│
+├── src/
+│   ├── components/
+│   ├── assets/
+│   ├── main.js / main.ts
+│
+├── package.json
+├── README.md
+└── .gitignore
+
 <br><h3>🛠️ Tech Stack Used</h3><br>
 HTML5 – Structure
 CSS3 / Tailwind CSS – Styling & layout
