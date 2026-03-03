@@ -40,8 +40,8 @@ Chillz-Time/
 ## 🛠️ Tech Stack Used  
 
 - HTML5 – Structure  
-- CSS3 / Tailwind CSS – Styling & Layout  
-- JavaScript / TypeScript – Functionality & Logic  
+- Tailwind CSS – Styling & Layout  
+- JavaScript & TypeScript – Functionality & Logic  
 - Node.js & npm – Development Environment  
 - Vite – Fast Frontend Build Tool  
 
